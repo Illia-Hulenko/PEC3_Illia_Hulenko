@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UT3Hulenko</string>
+    <string name="hello">Hola</string>
+    <string name="john_dou">John Dou</string>
+    <string name="search_elements">Bilatu elementua</string>
+    <string name="games">Jolasak</string>
+    <string name="contacts">Kontaktuak</string>
+    <string name="health">Osasuna</string>
+    <string name="maps">Mapak</string>
+    <string name="trending">JOERAK</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</string>
+    <string name="home">Etxea</string>
+    <string name="favorite">Gogokoak</string>
+    <string name="accounte">Kontu-hartzailea </string>
+    <string name="settings">Ezarpenak</string>
+</resources>

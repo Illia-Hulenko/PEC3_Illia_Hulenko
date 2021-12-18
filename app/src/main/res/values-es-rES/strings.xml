@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UT3Hulenko</string>
+    <string name="hello">Hola</string>
+    <string name="john_dou">John Dou</string>
+    <string name="search_elements">Buscar el elemento</string>
+    <string name="games">Juegos</string>
+    <string name="contacts">Contactos</string>
+    <string name="health">Salud</string>
+    <string name="maps">Mapas</string>
+    <string name="trending">TENDENCIAS</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</string>
+    <string name="home">Casa</string>
+    <string name="favorite">Favoritos</string>
+    <string name="accounte">Contable</string>
+    <string name="settings">Ajustes</string>
+</resources>
