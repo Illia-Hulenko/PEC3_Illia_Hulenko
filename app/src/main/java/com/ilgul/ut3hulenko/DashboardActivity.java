@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class DashboardActivity extends AppCompatActivity {
 
     private LinearLayout option_maps;
+    private LinearLayout contacts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,7 @@ public class DashboardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         option_maps = (LinearLayout) findViewById(R.id.layoutMap);
+        contacts = (LinearLayout) findViewById(R.id.layoutContact);
 
         /*Action listener to button*/
         option_maps.setOnClickListener(new View.OnClickListener() {
@@ -27,5 +29,18 @@ public class DashboardActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        contacts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent y = new Intent(DashboardActivity.this, RecyclerViewCardView.class);
+                y.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(y);
+            }
+        });
+
+
+
+
     }
 }
