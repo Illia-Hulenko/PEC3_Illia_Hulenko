@@ -16,7 +16,7 @@
         items for a single row of RecyclerView
         -->
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/NOMBRE"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name"
@@ -24,18 +24,25 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/email"
+            android:id="@+id/DIRECCIÓN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="email@email.com"
+            android:text="DIRECCIÓN"
+            android:textColor="#000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/LOCALIDAD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCALIDAD"
             android:textColor="#000"
             android:textSize="15sp" />
 
         <TextView
-            android:id="@+id/mobileNo"
+            android:id="@+id/TELÉFONO"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="e9999999999"
+            android:text="9999999999"
             android:textColor="#000"
             android:textSize="15sp" />
     </LinearLayout>
@@ -44,12 +51,12 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="abhiandroid.com.jsonparsingexample.MainActivity">
+        tools:context="com.ilgul.ut3hulenko.RecyclerViewCardView">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
