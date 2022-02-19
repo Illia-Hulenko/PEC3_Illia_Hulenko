@@ -11,6 +11,7 @@ public class DashboardActivity extends AppCompatActivity {
 
     private LinearLayout option_maps;
     private LinearLayout contacts;
+    private LinearLayout games;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,7 @@ public class DashboardActivity extends AppCompatActivity {
 
         option_maps = (LinearLayout) findViewById(R.id.layoutMap);
         contacts = (LinearLayout) findViewById(R.id.layoutContact);
+        games = (LinearLayout) findViewById(R.id.layoutGame);
 
         /*Action listener to button*/
         option_maps.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +40,17 @@ public class DashboardActivity extends AppCompatActivity {
                 startActivity(y);
             }
         });
+
+        games.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent g = new Intent(DashboardActivity.this, GamesActivity.class);
+                g.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(g);
+            }
+        });
+
+
 
 
 

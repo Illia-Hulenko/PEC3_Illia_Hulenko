@@ -1,0 +1,36 @@
+{
+  "arrayPreguntas": [
+    {
+      "id_Pregunta": 1,
+      "Pregunta": "What is a duel between three people called?",
+      "respuesta": "A truel",
+      "alternativa1": "A triple",
+      "alternativa2": "A truel",
+      "alternativa3": "A duel"
+    },
+    {
+      "id_Pregunta": 2,
+      "Pregunta": "In the state of Georgia, it’s illegal to eat what with a fork?",
+      "respuesta": "Fried chicken",
+      "alternativa1": "Fried chicken",
+      "alternativa2": "Boiled pork ",
+      "alternativa3": "Only Hotdog"
+    },
+    {
+      "id_Pregunta": 3,
+      "Pregunta": "Which Tasmanian marsupial is known for its temper?",
+      "respuesta": "Tasmanian devil",
+      "alternativa1": "Tasmanian devil",
+      "alternativa2": "Wombat",
+      "alternativa3": "Pademelon"
+    },
+    {
+      "id_Pregunta": 4,
+      "Pregunta": "Iceland diverted roads to avoid disturbing communities of what?",
+      "respuesta": "",
+      "alternativa1": "People",
+      "alternativa2": "Orcs",
+      "alternativa3": "Elves"
+    }
+  ]
+}
