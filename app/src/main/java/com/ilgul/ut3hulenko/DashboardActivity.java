@@ -49,11 +49,5 @@ public class DashboardActivity extends AppCompatActivity {
                 startActivity(g);
             }
         });
-
-
-
-
-
-
     }
 }
