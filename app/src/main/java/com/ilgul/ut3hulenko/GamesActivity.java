@@ -24,7 +24,7 @@ public class GamesActivity extends AppCompatActivity {
     RadioGroup radioGroup;
     TextView preguntasId, pregunto;
     RadioButton opcion1, opcion2, opcion3;
-    Button sendButton;
+    Button sendButton, btnSalir;
     ImageView randomImage;
 
     List<Question> questionList;
@@ -55,6 +55,7 @@ public class GamesActivity extends AppCompatActivity {
         opcion2 = findViewById(R.id.radioButton2);
         opcion3 = findViewById(R.id.radioButton3);
         sendButton = findViewById(R.id.buttonSend);
+        btnSalir = findViewById(R.id.btnSalir);
 
         textColorDefaultRb = opcion1.getTextColors();
 
@@ -79,6 +80,15 @@ public class GamesActivity extends AppCompatActivity {
                 } else {
                     showNextQuestion();
                 }
+            }
+        });
+
+        btnSalir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ex = new Intent(GamesActivity.this, DashboardActivity.class);
+                ex.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(ex);
             }
         });
     }

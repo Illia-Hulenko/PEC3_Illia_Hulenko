@@ -10,11 +10,12 @@
         android:id="@+id/buttonSend"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/send"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toStartOf="@+id/btnSalir"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -49,7 +50,7 @@
         android:id="@+id/elPregunto"
         android:layout_width="373dp"
         android:layout_height="101dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/round_background_yellow"
         android:gravity="center"
         android:minHeight="100dp"
@@ -105,5 +106,16 @@
             app:layout_constraintStart_toStartOf="parent" />
 
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="24dp"
+        android:text="EXIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
