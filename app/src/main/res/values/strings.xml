@@ -19,4 +19,10 @@
     <string name="opcion2">Opcion2</string>
     <string name="opcion3">Opcion3</string>
     <string name="randomImage" />
+    <string name="felicitaciones">Felicitaciones</string>
+    <string name="restart">RESTART</string>
+    <string name="exit">EXIT</string>
+    <string name="next">NEXT</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
 </resources>
